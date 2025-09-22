@@ -35,17 +35,16 @@
             image={Svelte}
         />
     </div>
+    <div id="socials">
+        <a href="https://github.com/pritoranta" target="_blank"
+            ><img src={GitHub} /></a
+        >
+        <a
+            href="https://linkedin.com/in/pietari-ritoranta-b9895a203"
+            target="_blank"><img src={LinkedIn} /></a
+        >
+    </div>
 </main>
-
-<div id="socials">
-    <a href="https://github.com/pritoranta" target="_blank"
-        ><img src={GitHub} /></a
-    >
-    <a
-        href="https://linkedin.com/in/pietari-ritoranta-b9895a203"
-        target="_blank"><img src={LinkedIn} /></a
-    >
-</div>
 
 <style>
     main {
@@ -75,9 +74,6 @@
         font-style: italic;
     }
     #socials {
-        position: fixed;
-        bottom: 1.5rem;
-        right: 1.5rem;
         display: flex;
         gap: 20px;
         justify-content: flex-end;
