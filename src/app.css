@@ -1,7 +1,19 @@
 :root {
+    --background-top: rgb(8, 0, 20);
+    --background-bottom: rgb(139, 0, 93);
+    --color: rgb(255, 255, 255);
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+
+    background-image: linear-gradient(
+        to bottom,
+        var(--background-top),
+        var(--background-bottom)
+    );
+    color: var(--color);
+    height: 100vh;
+    width: 100vw;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -13,4 +25,12 @@ body {
     margin: 0;
     width: 100vw;
     height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-top: rgb(255, 255, 255);
+        --background-bottom: rgb(255, 0, 110);
+        --color: rgb(0, 0, 0);
+    }
 }
