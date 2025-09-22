@@ -20,27 +20,30 @@
             link="https://pritoranta.net/reddit-gallery-client/"
             description="Svelte browser app made for browsing pictures on Reddit in a unique way. Draws a grid where some pictures are enlarged based on a semi-random chance. Meant to be used on a desktop monitor for the proper 'wow' effect. Click to see..."
             image={Reddit}
+            imageAlt="Reddit logo"
         />
         <ProjectDisplay
             title="Reddit Gallery API"
             link="https://github.com/pritoranta/reddit-gallery-api/"
             description="Backend service for Reddit Gallery Client. Web API written in Go, powered by the Gin framework. Fetches data from Reddit API and caches it. If subject to too frequent unique requests (across all users), Reddit API will start rate limiting it. More on GitHub..."
             image={Reddit}
+            imageAlt="Reddit logo"
         />
         <ProjectDisplay
             title="Portfolio"
             link="https://github.com/pritoranta/portfolio/"
             description="What you're looking at right now! Super simple Svelte browser app written in TypeScript, and compiled into HTML + CSS + JavaScript. As simple as it gets. No server components."
             image={Svelte}
+            imageAlt="Svelte logo"
         />
     </div>
     <div id="socials">
         <a href="https://github.com/pritoranta" target="_blank"
-            ><img src={GitHub} /></a
+            ><img src={GitHub} alt="Link to GitHub" /></a
         >
         <a
             href="https://linkedin.com/in/pietari-ritoranta-b9895a203"
-            target="_blank"><img src={LinkedIn} /></a
+            target="_blank"><img src={LinkedIn} alt="Link to LinkedIn" /></a
         >
     </div>
 </main>

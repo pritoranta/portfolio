@@ -4,13 +4,14 @@
         title: string
         description: string
         image: string
+        imageAlt: string
     } = $props()
 </script>
 
 <a href={props.link}
     ><h2>{props.title}</h2>
     <div class="content-container">
-        <img src={props.image} />
+        <img src={props.image} alt={props.imageAlt} />
         <p>{props.description}</p>
     </div>
 </a>
