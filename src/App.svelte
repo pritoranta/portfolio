@@ -1,4 +1,6 @@
 <script lang="ts">
+    import GitHub from './assets/github.png'
+    import LinkedIn from './assets/linkedin.png'
     import ProjectDisplay from './ProjectDisplay.svelte'
     import Reddit from './assets/reddit.png'
     import Svelte from './assets/svelte.png'
@@ -35,6 +37,16 @@
     </div>
 </main>
 
+<div id="socials">
+    <a href="https://github.com/pritoranta" target="_blank"
+        ><img src={GitHub} /></a
+    >
+    <a
+        href="https://linkedin.com/in/pietari-ritoranta-b9895a203"
+        target="_blank"><img src={LinkedIn} /></a
+    >
+</div>
+
 <style>
     main {
         display: flex;
@@ -61,5 +73,17 @@
     .italic {
         text-shadow: 1px 1px 1px var(--color);
         font-style: italic;
+    }
+    #socials {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    #socials a img {
+        height: 64px;
     }
 </style>
