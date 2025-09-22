@@ -9,11 +9,11 @@
 <main>
     <h1>pritoranta</h1>
     <p>
-        Professional software developer and architect. Endlessly intrigued about
-        how software can serve and delight people. I like building simple things
+        Professional software developer and architect. Intrigued about how
+        software can serve and delight people. I like building simple things
         that spark joy. Here's a little collection of fun stuff I made! 💝
     </p>
-    <p class="italic">We live in a world of refinement, not invention</p>
+    <p class="italic">I feel like I'm back at the Green Dragon.</p>
     <div id="project-container">
         <ProjectDisplay
             title="Reddit Gallery Client"
