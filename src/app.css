@@ -2,7 +2,7 @@
     --background-top: rgb(8, 0, 20);
     --background-bottom: rgb(139, 0, 93);
     --color: rgb(255, 255, 255);
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: serif, sans-serif, system-ui;
     line-height: 1.5;
     font-weight: 400;
 
