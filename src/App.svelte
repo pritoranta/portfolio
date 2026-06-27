@@ -17,7 +17,7 @@
     <div id="project-container">
         <ProjectDisplay
             title="Reddit Gallery Client"
-            link="https://pritoranta.com/reddit-gallery-client/"
+            link="https://pritoranta.net/reddit-gallery-client/"
             description="Svelte browser app made for browsing pictures on Reddit in a unique way. Draws a grid where some pictures are enlarged based on a semi-random chance. Meant to be used on a desktop monitor for the proper 'wow' effect. Click to see..."
             image={Reddit}
             imageAlt="Reddit logo"
